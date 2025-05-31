@@ -1,0 +1,225 @@
+{
+	"Clear Glass":{
+		"Crystal Clear": {
+			"type": "Glass BSDF",
+			"color": [1.0, 1.0, 1.0, 1.0],
+			"roughness": 0.0,
+			"ior": 1.5
+		},
+		"Slightly Frosted": {
+			"type": "Glass BSDF",
+			"color": [1.0, 1.0, 1.0, 1.0],
+			"roughness": 0.2,
+			"ior": 1.5
+		},
+		"Green Tinted Glass": {
+			"type": "Glass BSDF",
+			"color": [0.8, 1.0, 0.8, 1.0],
+			"roughness": 0.0,
+			"ior": 1.5
+		},
+		"Blue Tinted Glass": {
+			"type": "Glass BSDF",
+			"color": [0.8, 0.9, 1.0, 1.0],
+			"roughness": 0.0,
+			"ior": 1.5
+		},
+		"Amber Tinted Glass": {
+			"type": "Glass BSDF",
+			"color": [1.0, 0.8, 0.6, 1.0],
+			"roughness": 0.0,
+			"ior": 1.5
+		},
+		"Gray Tinted Glass": {
+			"type": "Glass BSDF",
+			"color": [0.7, 0.7, 0.7, 1.0],
+			"roughness": 0.0,
+			"ior": 1.5
+		},
+		"Bronze Tinted Glass": {
+			"type": "Glass BSDF",
+			"color": [0.9, 0.7, 0.5, 1.0],
+			"roughness": 0.0,
+			"ior": 1.5
+		},
+		"Black Tinted Glass": {
+			"type": "Glass BSDF",
+			"color": [0.2, 0.2, 0.2, 1.0],
+			"roughness": 0.0,
+			"ior": 1.5
+		},
+		"Frosted White": {
+			"type": "Glass BSDF",
+			"color": [1.0, 1.0, 1.0, 1.0],
+			"roughness": 0.5,
+			"ior": 1.5
+		},
+		"Smoky Glass": {
+			"type": "Glass BSDF",
+			"color": [0.5, 0.5, 0.5, 1.0],
+			"roughness": 0.0,
+			"ior": 1.5
+		}
+	},
+	"Buttle":{
+		"Clear Bottle Glass": {
+			"type": "Glass BSDF",
+			"color": [1.0, 1.0, 1.0, 1.0],
+			"roughness": 0.0,
+			"ior": 1.52
+		},
+		"Green Beer Bottle": {
+			"type": "Glass BSDF",
+			"color": [0.3, 0.5, 0.3, 1.0],
+			"roughness": 0.0,
+			"ior": 1.52
+		},
+		"Brown Beer Bottle": {
+			"type": "Glass BSDF",
+			"color": [0.25, 0.15, 0.05, 1.0],
+			"roughness": 0.0,
+			"ior": 1.52
+		},
+		"Champagne Green Glass": {
+			"type": "Glass BSDF",
+			"color": [0.2, 0.3, 0.15, 1.0],
+			"roughness": 0.0,
+			"ior": 1.52
+		},
+		"Red Wine Bottle": {
+			"type": "Glass BSDF",
+			"color": [0.2, 0.05, 0.05, 1.0],
+			"roughness": 0.0,
+			"ior": 1.52
+		},
+		"Olive Oil Bottle Glass": {
+			"type": "Glass BSDF",
+			"color": [0.3, 0.35, 0.15, 1.0],
+			"roughness": 0.0,
+			"ior": 1.52
+		},
+		"Blue Juice Bottle Glass": {
+			"type": "Glass BSDF",
+			"color": [0.2, 0.3, 0.5, 1.0],
+			"roughness": 0.0,
+			"ior": 1.52
+		},
+		"Amber Medicine Bottle": {
+			"type": "Glass BSDF",
+			"color": [0.6, 0.3, 0.1, 1.0],
+			"roughness": 0.0,
+			"ior": 1.52
+		},
+		"Milk Glass [Opaque White]": {
+			"type": "Glass BSDF",
+			"color": [0.95, 0.95, 0.95, 1.0],
+			"roughness": 0.2,
+			"ior": 1.52
+		},
+		"Frosted Water Bottle": {
+			"type": "Glass BSDF",
+			"color": [0.9, 0.9, 0.95, 1.0],
+			"roughness": 0.4,
+			"ior": 1.52
+		}
+	},
+	"Crystal": {
+		"Clear Quartz": {
+			"color": [1.0, 1.0, 1.0, 1.0],
+			"type": "Principled BSDF",
+			"ior": 1.46,
+			"transmission_weight": 1.0
+		},
+		"Amethyst": {
+			"color": [0.6, 0.4, 0.8, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.05,
+			"ior": 1.54,
+			"transmission_weight": 1.0
+		},
+		"Rose Quartz": {
+			"color": [0.945, 0.698, 0.745, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.1,
+			"ior": 1.54,
+			"transmission_weight": 1.0
+		},
+		"Citrine": {
+			"color": [0.98, 0.8, 0.25, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.03,
+			"ior": 1.55,
+			"transmission_weight": 1.0
+		},
+		"Emerald": {
+			"color": [0.3, 0.8, 0.5, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.03,
+			"ior": 1.57,
+			"transmission_weight": 1.0
+		},
+		"Ruby": {
+			"color": [0.8, 0.1, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.02,
+			"ior": 1.76,
+			"transmission_weight": 1.0
+		},
+		"Sapphire": {
+			"color": [0.1, 0.2, 0.8, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.02,
+			"ior": 1.76,
+			"transmission_weight": 1.0
+		},
+		"Topaz": {
+			"color": [0.98, 0.8, 0.5, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.04,
+			"ior": 1.61,
+			"transmission_weight": 1.0
+		},
+		"Diamond": {
+			"color": [1.0, 1.0, 1.0, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.0,
+			"ior": 2.42,
+			"transmission_weight": 1.0
+		},
+		"Opal": {
+			"color": [0.9, 0.8, 0.75, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.2,
+			"ior": 1.45,
+			"transmission_weight": 1.0
+		},
+		"Garnet": {
+			"color": [0.7, 0.2, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.06,
+			"ior": 1.81,
+			"transmission_weight": 1.0
+		},
+		"Aquamarine": {
+			"color": [0.5, 0.8, 0.9, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.02,
+			"ior": 1.57,
+			"transmission_weight": 1.0
+		},
+		"Jade": {
+			"color": [0.2, 0.8, 0.3, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.15,
+			"ior": 1.66,
+			"transmission_weight": 0.8
+		},
+		"Lapis Lazuli": {
+			"color": [0.1, 0.2, 0.7, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.3,
+			"ior": 1.5,
+			"transmission_weight": 0.6
+		}
+	}
+}

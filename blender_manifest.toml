@@ -1,0 +1,13 @@
+schema_version = "1.0.0"
+
+id = "Color_Library"
+name = "Color Library"
+version = "1.0.0"
+tagline = "Package of commonly used colorpalletes"
+maintainer = "Nevil Tan (Naser Merati)"
+type = "add-on"
+website = "https://github.com/NevilArt/BsMax"
+tags = ["Render"]
+
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-3.0-or-later"]

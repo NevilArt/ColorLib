@@ -1,0 +1,963 @@
+{
+	"Aluminum": {
+		"Aluminum_Polished": {
+			"color": [0.913, 0.921, 0.925, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.95, 0.96, 0.97, 1.0],
+			"ior": [1.44, 1.44, 1.44],
+			"extinction": [7.26, 6.73, 5.68],
+			"roughness": 0.1
+		},
+		"Aluminum_Brushed": {
+			"color": [0.913, 0.921, 0.925, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.85, 0.85, 0.86, 1.0],
+			"ior": [1.44, 1.44, 1.44],
+			"extinction": [7.26, 6.73, 5.68],
+			"roughness": 0.3,
+			"anisotropic": 0.7,
+			"rotation": 0.25
+		},
+		"Aluminum_Raw": {
+			"color": [0.87, 0.88, 0.89, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.8, 0.82, 0.85, 1.0],
+			"ior": [1.44, 1.44, 1.44],
+			"extinction": [7.26, 6.73, 5.68],
+			"roughness": 0.5,
+			"anisotropic": 0.1
+		},
+		"Aluminum_Oxidized": {
+			"color": [0.6, 0.65, 0.7, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.6, 0.62, 0.64, 1.0],
+			"ior": [1.35, 1.35, 1.35],
+			"extinction": [5.0, 4.5, 4.0],
+			"roughness": 0.8
+		},
+		"Aluminum_Anodized_Black": {
+			"color": [0.1, 0.1, 0.1, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.2, 0.2, 0.2, 1.0],
+			"ior": [1.6, 1.6, 1.6],
+			"extinction": [5.5, 5.5, 5.5],
+			"roughness": 0.25,
+			"anisotropic": 0.3
+		},
+		"Aluminum_Anodized_Red": {
+			"color": [0.6, 0.1, 0.1, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.75, 0.2, 0.2, 1.0],
+			"ior": [1.6, 1.6, 1.6],
+			"extinction": [5.5, 5.5, 5.5],
+			"roughness": 0.25,
+			"anisotropic": 0.3
+		},
+		"Aluminum_Anodized_Blue": {
+			"color": [0.1, 0.1, 0.6, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.2, 0.2, 0.75, 1.0],
+			"ior": [1.6, 1.6, 1.6],
+			"extinction": [5.5, 5.5, 5.5],
+			"roughness": 0.25,
+			"anisotropic": 0.3
+		},
+		"Aluminum_Painted_White": {
+			"color": [0.95, 0.95, 0.95, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [1.0, 1.0, 1.0, 1.0],
+			"ior": [1.3, 1.3, 1.3],
+			"extinction": [0.0, 0.0, 0.0],
+			"roughness": 0.6
+		},
+		"Aluminum_Painted_Black": {
+			"color": [0.05, 0.05, 0.05, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.1, 0.1, 0.1, 1.0],
+			"ior": [1.3, 1.3, 1.3],
+			"extinction": [0.0, 0.0, 0.0],
+			"roughness": 0.6
+		}
+	},
+	"Copper":{
+		"Copper_Polished": {
+			"color": [0.955, 0.637, 0.538, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.98, 0.75, 0.7, 1.0],
+			"ior": [0.2, 1.1, 1.3],
+			"extinction": [3.9, 2.4, 2.5],
+			"roughness": 0.1
+		},
+		"Copper_Brushed": {
+			"color": [0.955, 0.637, 0.538, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.9, 0.6, 0.55, 1.0],
+			"ior": [0.2, 1.1, 1.3],
+			"extinction": [3.9, 2.4, 2.5],
+			"roughness": 0.3,
+			"anisotropic": 0.7,
+			"rotation": 0.3
+		},
+		"Copper_Raw": {
+			"color": [0.9, 0.53, 0.4, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.8, 0.5, 0.4, 1.0],
+			"ior": [0.2, 1.1, 1.3],
+			"extinction": [3.9, 2.4, 2.5],
+			"roughness": 0.45,
+			"anisotropic": 0.2
+		},
+		"Copper_Aged": {
+			"color": [0.65, 0.45, 0.3, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.6, 0.4, 0.3, 1.0],
+			"ior": [0.2, 1.1, 1.3],
+			"extinction": [3.9, 2.4, 2.5],
+			"roughness": 0.7
+		},
+		"Copper_Oxidized_Green_Patina": {
+			"color": [0.3, 0.6, 0.4, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.4, 0.7, 0.5, 1.0],
+			"ior": [1.3, 1.3, 1.3],
+			"extinction": [0.0, 0.0, 0.0],
+			"roughness": 0.85
+
+		},
+		"Copper_Oxidized_Blue_Patina": {
+			"color": [0.25, 0.5, 0.65, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.3, 0.55, 0.75, 1.0],
+			"ior": [1.3, 1.3, 1.3],
+			"extinction": [0.0, 0.0, 0.0],
+			"roughness": 0.85
+		},
+		"Copper_Painted_White": {
+			"color": [0.95, 0.95, 0.95, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [1.0, 1.0, 1.0, 1.0],
+			"ior": [1.3, 1.3, 1.3],
+			"extinction": [0.0, 0.0, 0.0],
+			"roughness": 0.6
+		},
+		"Copper_Painted_Black": {
+			"color": [0.05, 0.05, 0.05, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.1, 0.1, 0.1, 1.0],
+			"ior": [1.3, 1.3, 1.3],
+			"extinction": [0.0, 0.0, 0.0],
+			"roughness": 0.6
+		}
+	},
+	"Iron":{
+		"Iron_Raw": {
+			"color": [0.560, 0.570, 0.580, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.5, 0.5, 0.5, 1.0],
+			"ior": [2.9, 2.9, 2.9],
+			"extinction": [3.3, 3.3, 3.3],
+			"roughness": 0.6
+		},
+		"Iron_Polished": {
+			"color": [0.560, 0.570, 0.580, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.9, 0.9, 0.9, 1.0],
+			"ior": [2.9, 2.9, 2.9],
+			"extinction": [3.3, 3.3, 3.3],
+			"roughness": 0.15,
+			"anisotropic": 0.1
+		},
+		"Iron_Brushed": {
+			"color": [0.560, 0.570, 0.580, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.7, 0.7, 0.7, 1.0],
+			"ior": [2.9, 2.9, 2.9],
+			"extinction": [3.3, 3.3, 3.3],
+			"roughness": 0.3,
+			"anisotropic": 0.6,
+			"rotation": 0.25
+		},
+		"Iron_Rusted": {
+			"color": [0.3, 0.15, 0.05, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.4, 0.2, 0.1, 1.0],
+			"ior": [1.45, 1.45, 1.45],
+			"extinction": [0.0, 0.0, 0.0],
+			"roughness": 0.85
+		},
+		"Iron_Cast": {
+			"color": [0.4, 0.4, 0.4, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.5, 0.5, 0.5, 1.0],
+			"ior": [2.7, 2.7, 2.7],
+			"extinction": [3.2, 3.2, 3.2],
+			"roughness": 0.7
+		},
+		"Iron_Forged": {
+			"color": [0.45, 0.45, 0.47, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.6, 0.6, 0.6, 1.0],
+			"ior": [2.8, 2.8, 2.8],
+			"extinction": [3.0, 3.0, 3.0],
+			"roughness": 0.55,
+			"anisotropic": 0.1,
+			"rotation": 0.1
+		},
+		"Iron_Painted_White": {
+			"color": [0.95, 0.95, 0.95, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [1.0, 1.0, 1.0, 1.0],
+			"ior": [1.3, 1.3, 1.3],
+			"extinction": [0.0, 0.0, 0.0],
+			"roughness": 0.5
+		},
+		"Iron_Painted_Black": {
+			"color": [0.05, 0.05, 0.05, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.1, 0.1, 0.1, 1.0],
+			"ior": [1.3, 1.3, 1.3],
+			"extinction": [0.0, 0.0, 0.0],
+			"roughness": 0.5
+		}
+	},
+	"Brass":{
+		"Brass_Polished": {
+			"color": [0.980, 0.780, 0.360, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.95, 0.75, 0.35, 1.0],
+			"ior": [0.47, 1.9, 1.8],
+			"extinction": [3.7, 2.4, 1.6],
+			"roughness": 0.1
+		},
+		"Brass_Brushed": {
+			"color": [0.980, 0.780, 0.360, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.9, 0.7, 0.35, 1.0],
+			"ior": [0.47, 1.9, 1.8],
+			"extinction": [3.7, 2.4, 1.6],
+			"roughness": 0.35,
+			"anisotropic": 0.7,
+			"rotation": 0.2
+		},
+		"Brass_Raw": {
+			"color": [0.870, 0.690, 0.280, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.85, 0.65, 0.25, 1.0],
+			"ior": [0.47, 1.9, 1.8],
+			"extinction": [3.7, 2.4, 1.6],
+			"roughness": 0.5,
+			"anisotropic": 0.1
+		},
+		"Brass_Aged": {
+			"color": [0.55, 0.45, 0.2, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.5, 0.4, 0.2, 1.0],
+			"ior": [0.47, 1.9, 1.8],
+			"extinction": [3.7, 2.4, 1.6],
+			"roughness": 0.65
+		},
+		"Brass_Antique": {
+			"color": [0.45, 0.35, 0.18, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.4, 0.3, 0.15, 1.0],
+			"ior": [0.47, 1.9, 1.8],
+			"extinction": [3.7, 2.4, 1.6],
+			"roughness": 0.8
+		},
+		"Brass_Lacquered": {
+			"color": [0.95, 0.75, 0.35, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.95, 0.75, 0.35, 1.0],
+			"ior": [1.5, 1.5, 1.5],
+			"extinction": [0.0, 0.0, 0.0],
+			"roughness": 0.3
+		}
+	},
+	"Gold": {
+		"Gold_Polished": {
+			"color": [1.000, 0.766, 0.336, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [1.0, 0.8, 0.35, 1.0],
+			"ior": [0.47, 0.35, 1.5],
+			"extinction": [2.4, 2.6, 1.8],
+			"roughness": 0.05
+		},
+		"Gold_Brushed": {
+			"color": [1.000, 0.766, 0.336, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [1.0, 0.8, 0.35, 1.0],
+			"ior": [0.47, 0.35, 1.5],
+			"extinction": [2.4, 2.6, 1.8],
+			"roughness": 0.25,
+			"anisotropic": 0.7,
+			"rotation": 0.3
+		},
+		"Gold_Aged": {
+			"color": [0.7, 0.6, 0.25, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.6, 0.5, 0.2, 1.0],
+			"ior": [0.47, 0.35, 1.5],
+			"extinction": [2.4, 2.6, 1.8],
+			"roughness": 0.6
+		},
+		"Gold_Rose": {
+			"color": [0.9, 0.55, 0.4, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.85, 0.45, 0.35, 1.0],
+			"ior": [0.52, 0.36, 1.4],
+			"extinction": [2.5, 2.6, 1.7],
+			"roughness": 0.2,
+			"anisotropic": 0.2
+		},
+		"Gold_White": {
+			"color": [0.85, 0.85, 0.85, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.9, 0.9, 0.9, 1.0],
+			"ior": [0.5, 0.5, 0.5],
+			"extinction": [3.2, 3.2, 3.2],
+			"roughness": 0.15
+		},
+		"Gold_Antique": {
+			"color": [0.5, 0.4, 0.2, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.45, 0.35, 0.15, 1.0],
+			"ior": [0.47, 0.35, 1.5],
+			"extinction": [2.4, 2.6, 1.8],
+			"roughness": 0.75
+		}
+	},
+	"Titanium": {
+		"Titanium_Polished": {
+			"color": [0.76, 0.73, 0.72, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.8, 0.78, 0.76, 1.0],
+			"ior": [3.42, 2.75, 1.63],
+			"extinction": [4.28, 3.75, 2.75],
+			"roughness": 0.05
+		},
+		"Titanium_Raw": {
+			"color": [0.55, 0.52, 0.50, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.6, 0.55, 0.5, 1.0],
+			"ior": [3.42, 2.75, 1.63],
+			"extinction": [4.28, 3.75, 2.75],
+			"roughness": 0.45
+		},
+		"Titanium_Anodized_Blue": {
+			"color": [0.3, 0.4, 0.9, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.25, 0.35, 0.85, 1.0],
+			"ior": [3.42, 2.75, 1.63],
+			"extinction": [4.28, 3.75, 2.75],
+			"roughness": 0.2,
+			"anisotropic": 0.1
+		},
+		"Titanium_Anodized_Rainbow": {
+			"color": [0.6, 0.3, 0.8, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.5, 0.4, 0.9, 1.0],
+			"ior": [3.42, 2.75, 1.63],
+			"extinction": [4.28, 3.75, 2.75],
+			"roughness": 0.25,
+			"anisotropic": 0.3,
+			"rotation": 0.5
+		},
+		"Titanium_Oxidized": {
+			"color": [0.45, 0.42, 0.41, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.4, 0.4, 0.4, 1.0],
+			"ior": [3.42, 2.75, 1.63],
+			"extinction": [4.28, 3.75, 2.75],
+			"roughness": 0.6
+		},
+		"Titanium_Brushed": {
+			"color": [0.65, 0.62, 0.61, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.65, 0.63, 0.61, 1.0],
+			"ior": [3.42, 2.75, 1.63],
+			"extinction": [4.28, 3.75, 2.75],
+			"roughness": 0.3,
+			"anisotropic": 0.8,
+			"rotation": 0.25
+		}
+	},
+
+	"Steel":{
+		"Steel_Polished": {
+			"color": [0.7, 0.72, 0.75, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.75, 0.75, 0.75, 1.0],
+			"ior": [2.50, 2.30, 1.70],
+			"extinction": [3.50, 3.30, 2.80],
+			"roughness": 0.05
+		},
+		"Steel_Brushed": {
+			"color": [0.65, 0.66, 0.68, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.7, 0.7, 0.7, 1.0],
+			"ior": [2.50, 2.30, 1.70],
+			"extinction": [3.50, 3.30, 2.80],
+			"roughness": 0.25,
+			"anisotropic": 0.7,
+			"rotation": 0.3
+		},
+		"Steel_Stainless": {
+			"color": [0.75, 0.75, 0.77, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.78, 0.78, 0.78, 1.0],
+			"ior": [2.50, 2.30, 1.70],
+			"extinction": [3.50, 3.30, 2.80],
+			"roughness": 0.15,
+			"anisotropic": 0.1,
+			"rotation": 0.1
+		},
+		"Steel_Galvanized": {
+			"color": [0.8, 0.8, 0.75, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.75, 0.75, 0.7, 1.0],
+			"ior": [2.40, 2.20, 1.60],
+			"extinction": [3.20, 3.00, 2.60],
+			"roughness": 0.35
+		},
+		"Steel_BlueTempered": {
+			"color": [0.3, 0.45, 0.7, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.25, 0.35, 0.65, 1.0],
+			"ior": [2.50, 2.30, 1.70],
+			"extinction": [3.50, 3.30, 2.80],
+			"roughness": 0.2
+		},
+		"Steel_Carbon": {
+			"color": [0.25, 0.25, 0.27, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.3, 0.3, 0.3, 1.0],
+			"ior": [2.60, 2.40, 1.80],
+			"extinction": [3.60, 3.40, 2.90],
+			"roughness": 0.4
+		}
+	},
+	"Stainless steel":{
+		"StainlessSteel_Polished": {
+			"color": [0.77, 0.77, 0.78, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.85, 0.85, 0.85, 1.0],
+			"ior": [2.50, 2.30, 1.70],
+			"extinction": [3.50, 3.30, 2.80],
+			"roughness": 0.05
+		},
+		"StainlessSteel_Brushed": {
+			"color": [0.7, 0.7, 0.72, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.75, 0.75, 0.75, 1.0],
+			"ior": [2.50, 2.30, 1.70],
+			"extinction": [3.50, 3.30, 2.80],
+			"roughness": 0.25,
+			"anisotropic": 0.8,
+			"rotation": 0.2
+		},
+		"StainlessSteel_Oxidized": {
+			"color": [0.55, 0.55, 0.56, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.5, 0.5, 0.5, 1.0],
+			"ior": [2.50, 2.30, 1.70],
+			"extinction": [3.50, 3.30, 2.80],
+			"roughness": 0.45,
+			"anisotropic": 0.1
+		},
+		"StainlessSteel_Blackened": {
+			"color": [0.2, 0.2, 0.22, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.25, 0.25, 0.28, 1.0],
+			"ior": [2.50, 2.30, 1.70],
+			"extinction": [3.50, 3.30, 2.80],
+			"roughness": 0.3
+		}
+	},
+	"Cast iron":{
+		"CastIron_Polished": {
+			"color": [0.48, 0.48, 0.50, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.55, 0.55, 0.55, 1.0],
+			"ior": [2.60, 2.40, 1.80],
+			"extinction": [3.60, 3.40, 2.90],
+			"roughness": 0.05
+		},
+		"CastIron_Rough": {
+			"color": [0.38, 0.36, 0.35, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.45, 0.43, 0.42, 1.0],
+			"ior": [2.60, 2.40, 1.80],
+			"extinction": [3.60, 3.40, 2.90],
+			"roughness": 0.8
+		}
+	},
+	"Carbon steel":{
+		"CarbonSteel_Polished": {
+			"color": [0.6, 0.6, 0.65, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.65, 0.65, 0.68, 1.0],
+			"ior": [2.60, 2.40, 1.80],
+			"extinction": [3.60, 3.40, 2.90],
+			"roughness": 0.05
+		},
+		"CarbonSteel_Rough": {
+			"color": [0.45, 0.45, 0.5, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.5, 0.5, 0.55, 1.0],
+			"ior": [2.60, 2.40, 1.80],
+			"extinction": [3.60, 3.40, 2.90],
+			"roughness": 0.7
+		},
+		"CarbonSteel_Oxidized": {
+			"color": [0.38, 0.38, 0.42, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.42, 0.42, 0.47, 1.0],
+			"ior": [2.60, 2.40, 1.80],
+			"extinction": [3.60, 3.40, 2.90],
+			"roughness": 0.55,
+			"anisotropic": 0.1
+		}
+	},
+	"Magnesium":{
+		"Magnesium_Polished": {
+			"color": [0.8, 0.8, 0.82, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.85, 0.85, 0.85, 1.0],
+			"ior": [1.60, 1.60, 1.60],
+			"extinction": [2.80, 2.60, 2.40],
+			"roughness": 0.05
+		},
+		"Magnesium_Rough": {
+			"color": [0.75, 0.75, 0.78, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.8, 0.8, 0.82, 1.0],
+			"ior": [1.60, 1.60, 1.60],
+			"extinction": [2.80, 2.60, 2.40],
+			"roughness": 0.6
+		},
+		"Magnesium_Oxidized": {
+			"color": [0.6, 0.6, 0.65, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.7, 0.7, 0.72, 1.0],
+			"ior": [1.60, 1.60, 1.60],
+			"extinction": [2.80, 2.60, 2.40],
+			"roughness": 0.75
+		}
+	},
+	"Zinc":{
+		"Zinc_Polished": {
+			"color": [0.77, 0.78, 0.80, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.85, 0.85, 0.87, 1.0],
+			"ior": [1.90, 1.80, 1.60],
+			"extinction": [2.90, 2.70, 2.50],
+			"roughness": 0.05
+		},
+		"Zinc_Rough": {
+			"color": [0.65, 0.66, 0.68, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.70, 0.70, 0.72, 1.0],
+			"ior": [1.90, 1.80, 1.60],
+			"extinction": [2.90, 2.70, 2.50],
+			"roughness": 0.65
+		},
+		"Zinc_Oxidized": {
+			"color": [0.5, 0.5, 0.53, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.55, 0.55, 0.58, 1.0],
+			"ior": [1.90, 1.80, 1.60],
+			"extinction": [2.90, 2.70, 2.50],
+			"roughness": 0.75
+		}
+	},
+	"Lead":{
+		"Lead_Polished": {
+			"color": [0.55, 0.55, 0.58, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.6, 0.6, 0.62, 1.0],
+			"ior": [2.10, 2.00, 1.80],
+			"extinction": [4.00, 3.80, 3.60],
+			"roughness": 0.05
+		},
+		"Lead_Rough": {
+			"color": [0.45, 0.45, 0.48, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.5, 0.5, 0.53, 1.0],
+			"ior": [2.10, 2.00, 1.80],
+			"extinction": [4.00, 3.80, 3.60],
+			"roughness": 0.7
+		},
+		"Lead_Oxidized": {
+			"color": [0.35, 0.35, 0.38, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.4, 0.4, 0.42, 1.0],
+			"ior": [2.10, 2.00, 1.80],
+			"extinction": [4.00, 3.80, 3.60],
+			"roughness": 0.8
+		}
+	},
+	"Nickel":{
+		"Nickel_Polished": {
+			"color": [0.75, 0.75, 0.78, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.8, 0.8, 0.82, 1.0],
+			"ior": [2.00, 1.90, 1.60],
+			"extinction": [3.20, 3.00, 2.80],
+			"roughness": 0.05
+		},
+		"Nickel_Rough": {
+			"color": [0.65, 0.65, 0.68, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.7, 0.7, 0.72, 1.0],
+			"ior": [2.00, 1.90, 1.60],
+			"extinction": [3.20, 3.00, 2.80],
+			"roughness": 0.6
+		},
+		"Nickel_Oxidized": {
+			"color": [0.55, 0.55, 0.58, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.6, 0.6, 0.62, 1.0],
+			"ior": [2.00, 1.90, 1.60],
+			"extinction": [3.20, 3.00, 2.80],
+			"roughness": 0.75
+		}
+	},
+	"Tin":{
+		"Tin_Polished": {
+			"color": [0.75, 0.75, 0.78, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.8, 0.8, 0.82, 1.0],
+			"ior": [2.00, 1.90, 1.60],
+			"extinction": [3.10, 2.90, 2.70],
+			"roughness": 0.05
+		},
+		"Tin_Rough": {
+			"color": [0.65, 0.65, 0.68, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.7, 0.7, 0.72, 1.0],
+			"ior": [2.00, 1.90, 1.60],
+			"extinction": [3.10, 2.90, 2.70],
+			"roughness": 0.6
+		},
+		"Tin_Oxidized": {
+			"color": [0.55, 0.55, 0.58, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.6, 0.6, 0.62, 1.0],
+			"ior": [2.00, 1.90, 1.60],
+			"extinction": [3.10, 2.90, 2.70],
+			"roughness": 0.75
+		}
+	},
+	"Chromium":{
+		"Chromium_Polished": {
+			"color": [0.75, 0.75, 0.8, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.8, 0.8, 0.85, 1.0],
+			"ior": [2.50, 2.30, 2.00],
+			"extinction": [4.50, 4.20, 3.90],
+			"roughness": 0.05
+		},
+		"Chromium_Rough": {
+			"color": [0.70, 0.70, 0.75, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.75, 0.75, 0.8, 1.0],
+			"ior": [2.50, 2.30, 2.00],
+			"extinction": [4.50, 4.20, 3.90],
+			"roughness": 0.6
+		},
+		"Chromium_Oxidized": {
+			"color": [0.55, 0.55, 0.6, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.6, 0.6, 0.65, 1.0],
+			"ior": [2.50, 2.30, 2.00],
+			"extinction": [4.50, 4.20, 3.90],
+			"roughness": 0.75
+		}
+	},
+	"Cobalt":{
+		"Cobalt_Polished": {
+			"color": [0.45, 0.55, 0.65, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.5, 0.6, 0.7, 1.0],
+			"ior": [2.10, 2.00, 1.80],
+			"extinction": [3.70, 3.50, 3.20],
+			"roughness": 0.05
+		},
+		"Cobalt_Rough": {
+			"color": [0.4, 0.5, 0.6, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.45, 0.55, 0.65, 1.0],
+			"ior": [2.10, 2.00, 1.80],
+			"extinction": [3.70, 3.50, 3.20],
+			"roughness": 0.6
+		},
+		"Cobalt_Oxidized": {
+			"color": [0.35, 0.45, 0.55, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.4, 0.5, 0.6, 1.0],
+			"ior": [2.10, 2.00, 1.80],
+			"extinction": [3.70, 3.50, 3.20],
+			"roughness": 0.75
+		}
+	},
+	"Silver":{
+		"Silver_Polished": {
+			"color": [0.95, 0.95, 0.98, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [1.0, 1.0, 1.05, 1.0],
+			"ior": [2.10, 2.00, 1.60],
+			"extinction": [4.60, 4.30, 4.00],
+			"roughness": 0.05
+		},
+		"Silver_Rough": {
+			"color": [0.85, 0.85, 0.88, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.9, 0.9, 0.95, 1.0],
+			"ior": [2.10, 2.00, 1.60],
+			"extinction": [4.60, 4.30, 4.00],
+			"roughness": 0.6
+		},
+		"Silver_Oxidized": {
+			"color": [0.7, 0.7, 0.75, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.75, 0.75, 0.8, 1.0],
+			"ior": [2.10, 2.00, 1.60],
+			"extinction": [4.60, 4.30, 4.00],
+			"roughness": 0.75
+		}
+	},
+	"Platinum":{
+		"Platinum_Polished": {
+			"color": [0.85, 0.85, 0.9, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.9, 0.9, 0.95, 1.0],
+			"ior": [2.30, 2.10, 1.80],
+			"extinction": [4.80, 4.50, 4.20],
+			"roughness": 0.05
+		},
+		"Platinum_Rough": {
+			"color": [0.75, 0.75, 0.8, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.8, 0.8, 0.85, 1.0],
+			"ior": [2.30, 2.10, 1.80],
+			"extinction": [4.80, 4.50, 4.20],
+			"roughness": 0.6
+		},
+		"Platinum_Oxidized": {
+			"color": [0.65, 0.65, 0.7, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.7, 0.7, 0.75, 1.0],
+			"ior": [2.30, 2.10, 1.80],
+			"extinction": [4.80, 4.50, 4.20],
+			"roughness": 0.75
+		}
+	},
+	"Palladium":{
+		"Palladium_Polished": {
+			"color": [0.85, 0.85, 0.9, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.9, 0.9, 0.95, 1.0],
+			"ior": [2.30, 2.10, 1.80],
+			"extinction": [5.00, 4.70, 4.40],
+			"roughness": 0.05
+		},
+		"Palladium_Rough": {
+			"color": [0.75, 0.75, 0.8, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.8, 0.8, 0.85, 1.0],
+			"ior": [2.30, 2.10, 1.80],
+			"extinction": [5.00, 4.70, 4.40],
+			"roughness": 0.6
+		},
+		"Palladium_Oxidized": {
+			"color": [0.65, 0.65, 0.7, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.7, 0.7, 0.75, 1.0],
+			"ior": [2.30, 2.10, 1.80],
+			"extinction": [5.00, 4.70, 4.40],
+			"roughness": 0.75
+		}
+	},
+	"Rhodiu":{
+		"Rhodium_Polished": {
+			"color": [0.75, 0.75, 0.85, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.8, 0.8, 0.9, 1.0],
+			"ior": [2.40, 2.20, 1.90],
+			"extinction": [5.10, 4.80, 4.50],
+			"roughness": 0.05
+		},
+		"Rhodium_Rough": {
+			"color": [0.70, 0.70, 0.80, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.75, 0.75, 0.85, 1.0],
+			"ior": [2.40, 2.20, 1.90],
+			"extinction": [5.10, 4.80, 4.50],
+			"roughness": 0.6
+		},
+		"Rhodium_Oxidized": {
+			"color": [0.60, 0.60, 0.70, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.65, 0.65, 0.75, 1.0],
+			"ior": [2.40, 2.20, 1.90],
+			"extinction": [5.10, 4.80, 4.50],
+			"roughness": 0.75
+		}
+	},
+	"Tungsten":{
+		"Tungsten_Polished": {
+			"color": [0.6, 0.6, 0.7, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.65, 0.65, 0.75, 1.0],
+			"ior": [2.10, 2.00, 1.70],
+			"extinction": [6.00, 5.70, 5.40],
+			"roughness": 0.05
+		},
+		"Tungsten_Rough": {
+			"color": [0.55, 0.55, 0.65, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.6, 0.6, 0.7, 1.0],
+			"ior": [2.10, 2.00, 1.70],
+			"extinction": [6.00, 5.70, 5.40],
+			"roughness": 0.6
+		},
+		"Tungsten_Oxidized": {
+			"color": [0.45, 0.45, 0.55, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.5, 0.5, 0.6, 1.0],
+			"ior": [2.10, 2.00, 1.70],
+			"extinction": [6.00, 5.70, 5.40],
+			"roughness": 0.75
+		}
+	},
+	"Molybdenum":{
+		"Molybdenum_Polished": {
+			"color": [0.55, 0.55, 0.65, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.6, 0.6, 0.7, 1.0],
+			"ior": [2.10, 2.00, 1.80],
+			"extinction": [5.50, 5.20, 4.90],
+			"roughness": 0.05
+		},
+		"Molybdenum_Rough": {
+			"color": [0.5, 0.5, 0.6, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.55, 0.55, 0.65, 1.0],
+			"ior": [2.10, 2.00, 1.80],
+			"extinction": [5.50, 5.20, 4.90],
+			"roughness": 0.6
+		},
+		"Molybdenum_Oxidized": {
+			"color": [0.45, 0.45, 0.55, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.5, 0.5, 0.6, 1.0],
+			"ior": [2.10, 2.00, 1.80],
+			"extinction": [5.50, 5.20, 4.90],
+			"roughness": 0.75
+		}
+	},
+	"Tantalum":{
+		"Tantalum_Polished": {
+			"color": [0.55, 0.55, 0.65, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.6, 0.6, 0.7, 1.0],
+			"ior": [2.20, 2.00, 1.80],
+			"extinction": [5.90, 5.60, 5.30],
+			"roughness": 0.05
+		},
+		"Tantalum_Rough": {
+			"color": [0.5, 0.5, 0.6, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.55, 0.55, 0.65, 1.0],
+			"ior": [2.20, 2.00, 1.80],
+			"extinction": [5.90, 5.60, 5.30],
+			"roughness": 0.6
+		},
+		"Tantalum_Oxidized": {
+			"color": [0.45, 0.45, 0.55, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.5, 0.5, 0.6, 1.0],
+			"ior": [2.20, 2.00, 1.80],
+			"extinction": [5.90, 5.60, 5.30],
+			"roughness": 0.75
+		}
+	},
+	"Niobium":{
+		"Niobium_Polished": {
+			"color": [0.6, 0.6, 0.7, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.65, 0.65, 0.75, 1.0],
+			"ior": [2.20, 2.00, 1.80],
+			"extinction": [6.00, 5.70, 5.40],
+			"roughness": 0.05
+		},
+		"Niobium_Rough": {
+			"color": [0.55, 0.55, 0.65, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.6, 0.6, 0.7, 1.0],
+			"ior": [2.20, 2.00, 1.80],
+			"extinction": [6.00, 5.70, 5.40],
+			"roughness": 0.6
+		},
+		"Niobium_Oxidized": {
+			"color": [0.5, 0.5, 0.6, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.55, 0.55, 0.65, 1.0],
+			"ior": [2.20, 2.00, 1.80],
+			"extinction": [6.00, 5.70, 5.40],
+			"roughness": 0.75
+		}
+	},
+	"Bismuth":{
+		"Bismuth_Polished": {
+			"color": [0.75, 0.55, 0.65, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.8, 0.6, 0.7, 1.0],
+			"ior": [2.20, 2.00, 1.80],
+			"extinction": [6.00, 5.70, 5.40],
+			"roughness": 0.05
+		},
+		"Bismuth_Rough": {
+			"color": [0.65, 0.45, 0.55, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.7, 0.5, 0.6, 1.0],
+			"ior": [2.20, 2.00, 1.80],
+			"extinction": [6.00, 5.70, 5.40],
+			"roughness": 0.6
+		},
+		"Bismuth_Oxidized": {
+			"color": [0.55, 0.35, 0.45, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.6, 0.4, 0.5, 1.0],
+			"ior": [2.20, 2.00, 1.80],
+			"extinction": [6.00, 5.70, 5.40],
+			"roughness": 0.75
+		}
+	},
+	"Hafnium":{
+		"Hafnium_Polished": {
+			"color": [0.55, 0.55, 0.65, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.6, 0.6, 0.7, 1.0],
+			"ior": [2.20, 2.00, 1.80],
+			"extinction": [6.10, 5.80, 5.50],
+			"roughness": 0.05
+		},
+		"Hafnium_Rough": {
+			"color": [0.50, 0.50, 0.60, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.55, 0.55, 0.65, 1.0],
+			"ior": [2.20, 2.00, 1.80],
+			"extinction": [6.10, 5.80, 5.50],
+			"roughness": 0.6
+		},
+		"Hafnium_Oxidized": {
+			"color": [0.45, 0.45, 0.55, 1.0],
+			"type": "Metallic BSDF",
+			"edge_tint": [0.5, 0.5, 0.6, 1.0],
+			"ior": [2.20, 2.00, 1.80],
+			"extinction": [6.10, 5.80, 5.50],
+			"roughness": 0.75
+		}
+	}
+}

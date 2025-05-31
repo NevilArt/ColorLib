@@ -1,0 +1,618 @@
+{
+	"Neon Light":{
+		"Neon Red": {
+			"color": [1.0, 0.0, 0.0, 1.0],
+			"type": "Emission",
+			"strength": 10.0
+		},
+		"Neon Green": {
+			"color": [0.0, 1.0, 0.0, 1.0],
+			"type": "Emission",
+			"strength": 10.0
+		},
+		"Neon Blue": {
+			"color": [0.0, 0.0, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 10.0
+		},
+		"Neon Cyan": {
+			"color": [0.0, 1.0, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 10.0
+		},
+		"Neon Magenta": {
+			"color": [1.0, 0.0, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 10.0
+		},
+		"Neon Yellow": {
+			"color": [1.0, 1.0, 0.0, 1.0],
+			"type": "Emission",
+			"strength": 10.0
+		},
+		"Aqua Mint": {
+			"color": [0.2, 1.0, 0.8, 1.0],
+			"type": "Emission",
+			"strength": 15.0
+		},
+		"Neon Orange": {
+			"color": [1.0, 0.5, 0.0, 1.0],
+			"type": "Emission",
+			"strength": 12.0
+		},
+		"Electric Purple": {
+			"color": [0.8, 0.0, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 14.0
+		},
+		"Lavender Glow": {
+			"color": [0.5, 0.5, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 9.0
+		}
+	},
+	"Xenon":{
+		"Xenon Pure White": {
+			"color": [1.0, 1.0, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 25.0
+		},
+		"Xenon Cool White": {
+			"color": [0.9, 0.95, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 22.0
+		},
+		"Xenon Blue Tint": {
+			"color": [0.8, 0.9, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 20.0
+		},
+		"Xenon Ice Blue": {
+			"color": [0.7, 0.85, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 20.0
+		},
+		"Xenon Ultra White": {
+			"color": [0.95, 0.95, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 24.0
+		},
+		"Xenon Warm White": {
+			"color": [1.0, 0.95, 0.9, 1.0],
+			"type": "Emission",
+			"strength": 18.0
+		},
+		"Xenon Soft Blue": {
+			"color": [0.75, 0.85, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 19.0
+		},
+		"Xenon Midnight Blue": {
+			"color": [0.6, 0.75, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 21.0
+		}
+	},
+	"Glowing Insects": {
+		"Firefly Glow": {
+			"color": [0.8, 1.0, 0.2, 1.0],
+			"type": "Emission",
+			"strength": 5.0
+		},
+		"Glow-worm Green": {
+			"color": [0.6, 1.0, 0.3, 1.0],
+			"type": "Emission",
+			"strength": 4.5
+		},
+		"Biolume Yellow": {
+			"color": [1.0, 0.9, 0.2, 1.0],
+			"type": "Emission",
+			"strength": 5.5
+		},
+		"Pale Biolight": {
+			"color": [0.9, 1.0, 0.5, 1.0],
+			"type": "Emission",
+			"strength": 4.0
+		},
+		"Cool Blue Beetle": {
+			"color": [0.5, 0.9, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 3.5
+		},
+		"Mystic Moth": {
+			"color": [0.7, 1.0, 0.7, 1.0],
+			"type": "Emission",
+			"strength": 4.2
+		},
+		"Jungle Spark": {
+			"color": [0.9, 1.0, 0.3, 1.0],
+			"type": "Emission",
+			"strength": 5.2
+		},
+		"Forest Ember": {
+			"color": [1.0, 0.8, 0.3, 1.0],
+			"type": "Emission",
+			"strength": 5.0
+		}
+	},
+	"Deep Sea Creature":{
+		"Anglerfish Lure": {
+			"color": [0.4, 0.9, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 6.5
+		},
+		"Deep Sea Blue": {
+			"color": [0.2, 0.6, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 5.5
+		},
+		"Viperfish Violet": {
+			"color": [0.6, 0.4, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 6.0
+		},
+		"Lanternfish Glow": {
+			"color": [0.3, 1.0, 0.8, 1.0],
+			"type": "Emission",
+			"strength": 5.8
+		},
+		"Atolla Jelly Pulse": {
+			"color": [1.0, 0.2, 0.5, 1.0],
+			"type": "Emission",
+			"strength": 7.0
+		},
+		"Comb Jelly Sparkle": {
+			"color": [0.8, 0.9, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 4.5
+		},
+		"Alien Reef Green": {
+			"color": [0.2, 1.0, 0.5, 1.0],
+			"type": "Emission",
+			"strength": 5.0
+		},
+		"Ghost Squid Aura": {
+			"color": [0.9, 0.7, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 6.2
+		},
+			"Moon Jelly Radiance": {
+			"color": [0.7, 0.9, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 3.5
+			},
+		"Firework Jelly Flash": {
+			"color": [1.0, 0.4, 0.8, 1.0],
+			"type": "Emission",
+			"strength": 6.5
+		},
+		"Crystal Jelly Aura": {
+			"color": [0.6, 1.0, 0.9, 1.0],
+			"type": "Emission",
+			"strength": 4.8
+		},
+		"Bloodybelly Comb Glow": {
+			"color": [1.0, 0.2, 0.3, 1.0],
+			"type": "Emission",
+			"strength": 5.5
+		},
+		"Bigfin Squid Shine": {
+			"color": [0.5, 0.8, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 5.0
+		},
+		"Mating Signal Blue": {
+			"color": [0.2, 0.6, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 6.0
+		},
+		"Prey Lure Pulse": {
+			"color": [0.9, 1.0, 0.5, 1.0],
+			"type": "Emission",
+			"strength": 6.8
+		},
+		"Camouflage Flicker": {
+			"color": [0.4, 0.9, 0.6, 1.0],
+			"type": "Emission",
+			"strength": 4.2
+		}
+	},
+	"Fungi":{
+		"Ghost Cap Green": {
+			"color": [0.6, 1.0, 0.5, 1.0],
+			"type": "Emission",
+			"strength": 3.5
+		},
+		"Witch's Mushroom": {
+			"color": [0.8, 1.0, 0.7, 1.0],
+			"type": "Emission",
+			"strength": 3.8
+		},
+		"Foxfire Glow": {
+			"color": [0.5, 1.0, 0.5, 1.0],
+			"type": "Emission",
+			"strength": 3.0
+		},
+		"Blue Biolume Cap": {
+			"color": [0.4, 0.8, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 4.0
+		},
+		"Moonshroom Shine": {
+			"color": [0.9, 1.0, 0.9, 1.0],
+			"type": "Emission",
+			"strength": 3.2
+		},
+		"Sporelight": {
+			"color": [0.7, 1.0, 0.6, 1.0],
+			"type": "Emission",
+			"strength": 2.8
+		},
+		"Cave Bloom": {
+			"color": [0.3, 0.7, 0.4, 1.0],
+			"type": "Emission",
+			"strength": 3.5
+		},
+		"Mycelial Beacon": {
+			"color": [0.6, 1.0, 0.9, 1.0],
+			"type": "Emission",
+			"strength": 4.2
+		}
+	},
+	"Dinoflagellates":{
+		"Sea Sparkle Blue": {
+			"color": [0.3, 0.8, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 4.5
+		},
+		"Biolum Tide": {
+			"color": [0.2, 0.6, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 5.0
+		},
+		"Wave Glow": {
+			"color": [0.4, 0.9, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 5.5
+		},
+		"Electric Surf": {
+			"color": [0.5, 0.95, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 6.0
+		},
+		"Blue Drift": {
+			"color": [0.3, 0.7, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 4.2
+		},
+		"Tideflash": {
+			"color": [0.2, 0.9, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 5.8
+		},
+		"Plankton Pulse": {
+			"color": [0.6, 0.95, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 4.8
+		},
+		"Ocean Glimmer": {
+			"color": [0.3, 0.85, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 5.2
+		}
+	},
+	"Certain algae":{
+		"Glow Algae Green": {
+			"color": [0.5, 1.0, 0.3, 1.0],
+			"type": "Emission",
+			"strength": 5.0
+		},
+		"Blue Lagoon Algae": {
+			"color": [0.3, 0.8, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 6.0
+		},
+		"Algae Glow White": {
+			"color": [1.0, 1.0, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 4.5
+		},
+		"Plankton Green": {
+			"color": [0.4, 1.0, 0.2, 1.0],
+			"type": "Emission",
+			"strength": 5.2
+		},
+		"Shimmer Algae": {
+			"color": [0.3, 0.7, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 4.8
+		},
+		"Tropical Bloom": {
+			"color": [0.2, 0.9, 0.5, 1.0],
+			"type": "Emission",
+			"strength": 5.0
+		},
+		"Oceanic Algae": {
+			"color": [0.1, 0.9, 0.6, 1.0],
+			"type": "Emission",
+			"strength": 5.6
+		},
+		"Bioluminescent Tide": {
+			"color": [0.6, 1.0, 0.8, 1.0],
+			"type": "Emission",
+			"strength": 5.4
+		}
+	},
+	"Scientific Chemical Glow": {
+		"Neon Green Reaction": {
+			"color": [0.0, 1.0, 0.0, 1.0],
+			"type": "Emission",
+			"strength": 8.0
+		},
+		"Fluorescent Yellow": {
+			"color": [1.0, 1.0, 0.0, 1.0],
+			"type": "Emission",
+			"strength": 7.5
+		},
+		"Chemical Blue Glow": {
+			"color": [0.0, 0.0, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 8.2
+		},
+		"Sulfur Glow": {
+			"color": [1.0, 1.0, 0.2, 1.0],
+			"type": "Emission",
+			"strength": 7.0
+		},
+		"Radium Pulse": {
+			"color": [0.2, 1.0, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 9.0
+		},
+		"Laser Green": {
+			"color": [0.2, 1.0, 0.3, 1.0],
+			"type": "Emission",
+			"strength": 7.5
+		},
+		"Futuristic Pink Fluorescence": {
+			"color": [1.0, 0.0, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 8.5
+		},
+		"Electric Cyan": {
+			"color": [0.0, 1.0, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 8.0
+		},
+		"Phosphorescent Glow": {
+			"color": [0.7, 1.0, 0.4, 1.0],
+			"type": "Emission",
+			"strength": 6.5
+		},
+		"Chemical Purple": {
+			"color": [0.6, 0.0, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 8.0
+		}
+	},
+	"Phosphors": {
+		"Green Phosphor Glow": {
+			"color": [0.0, 1.0, 0.0, 1.0],
+			"type": "Emission",
+			"strength": 4.5
+		},
+		"Blue Phosphor Shine": {
+			"color": [0.0, 0.5, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 5.0
+		},
+		"Soft Yellow Phosphor": {
+			"color": [1.0, 1.0, 0.0, 1.0],
+			"type": "Emission",
+			"strength": 4.0
+		},
+		"Glow-in-the-Dark White": {
+			"color": [1.0, 1.0, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 4.8
+		},
+		"Phosphorescent Aqua": {
+			"color": [0.0, 1.0, 0.7, 1.0],
+			"type": "Emission",
+			"strength": 4.2
+		},
+		"Emerald Phosphor": {
+			"color": [0.0, 1.0, 0.5, 1.0],
+			"type": "Emission",
+			"strength": 4.6
+		},
+		"Pink Phosphorescence": {
+			"color": [1.0, 0.3, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 5.2
+		},
+		"Bright Lime Phosphor": {
+			"color": [0.8, 1.0, 0.0, 1.0],
+			"type": "Emission",
+			"strength": 4.4
+		},
+		"Purple Phosphor Glow": {
+			"color": [0.6, 0.0, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 5.5
+		},
+		"Radiant Cyan Phosphor": {
+			"color": [0.0, 1.0, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 5.0
+		}
+		},
+		"Luminol": {
+		"Luminol Blue": {
+			"color": [0.2, 0.4, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 8.0
+		},
+		"Luminol Reaction Glow": {
+			"color": [0.1, 0.3, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 7.8
+		},
+		"Forensic Luminol": {
+			"color": [0.15, 0.35, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 8.5
+		},
+		"Luminol Flash": {
+			"color": [0.3, 0.5, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 7.0
+		},
+		"Chemical Blood Glow": {
+			"color": [0.1, 0.3, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 9.0
+		},
+		"Luminol Aura": {
+			"color": [0.25, 0.45, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 8.2
+		},
+		"Crime Scene Luminol": {
+			"color": [0.2, 0.4, 0.9, 1.0],
+			"type": "Emission",
+			"strength": 7.7
+		},
+		"Oxidized Luminol": {
+			"color": [0.1, 0.4, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 8.0
+		}
+	},
+	"Tritium":{
+		"Tritium Green": {
+			"color": [0.0, 1.0, 0.0, 1.0],
+			"type": "Emission",
+			"strength": 7.5
+		},
+		"Tritium Watch Glow": {
+			"color": [0.2, 1.0, 0.2, 1.0],
+			"type": "Emission",
+			"strength": 6.8
+		},
+		"Tritium Fade": {
+			"color": [0.1, 0.8, 0.1, 1.0],
+			"type": "Emission",
+			"strength": 6.5
+		},
+		"Tritium Light": {
+			"color": [0.3, 1.0, 0.3, 1.0],
+			"type": "Emission",
+			"strength": 7.2
+		},
+		"Glow in Tritium": {
+			"color": [0.0, 0.7, 0.0, 1.0],
+			"type": "Emission",
+			"strength": 6.0
+		},
+		"Tritium Phosphor": {
+			"color": [0.1, 0.9, 0.0, 1.0],
+			"type": "Emission",
+			"strength": 7.8
+		},
+		"Tritium Rad Glow": {
+			"color": [0.2, 1.0, 0.1, 1.0],
+			"type": "Emission",
+			"strength": 7.0
+		},
+		"Tritium Marker": {
+			"color": [0.0, 0.8, 0.1, 1.0],
+			"type": "Emission",
+			"strength": 6.5
+		}
+	},
+	"Strontium aluminate":{
+		"Strontium Aluminate Green": {
+			"color": [0.0, 1.0, 0.0, 1.0],
+			"type": "Emission",
+			"strength": 8.5
+		},
+		"Strontium Aluminate Blue": {
+			"color": [0.0, 0.4, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 8.0
+		},
+		"Strontium Aluminate Light Green": {
+			"color": [0.2, 1.0, 0.2, 1.0],
+			"type": "Emission",
+			"strength": 7.5
+		},
+		"Strontium Glow Blue": {
+			"color": [0.0, 0.5, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 8.3
+		},
+		"Strontium Aluminate Fade": {
+			"color": [0.1, 1.0, 0.1, 1.0],
+			"type": "Emission",
+			"strength": 7.0
+		},
+		"Strontium Aluminate Cool Blue": {
+			"color": [0.0, 0.3, 0.9, 1.0],
+			"type": "Emission",
+			"strength": 8.2
+		},
+		"Strontium Aluminate Cyan": {
+			"color": [0.0, 1.0, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 8.1
+		},
+		"Strontium Aluminate Neon": {
+			"color": [0.0, 1.0, 0.4, 1.0],
+			"type": "Emission",
+			"strength": 7.8
+		}
+	},
+	"Zinc sulfide": {
+		"Zinc Sulfide Green": {
+			"color": [0.0, 1.0, 0.0, 1.0],
+			"type": "Emission",
+			"strength": 6.0
+		},
+		"Zinc Sulfide Blue": {
+			"color": [0.0, 0.2, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 5.5
+		},
+		"Zinc Sulfide Yellow": {
+			"color": [1.0, 1.0, 0.0, 1.0],
+			"type": "Emission",
+			"strength": 5.0
+		},
+		"Zinc Sulfide Fade Green": {
+			"color": [0.0, 0.8, 0.0, 1.0],
+			"type": "Emission",
+			"strength": 5.8
+		},
+		"Zinc Sulfide Soft Blue": {
+			"color": [0.1, 0.4, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 5.3
+		},
+		"Zinc Sulfide Dim Green": {
+			"color": [0.0, 0.9, 0.0, 1.0],
+			"type": "Emission",
+			"strength": 4.5
+		},
+		"Zinc Sulfide Glow White": {
+			"color": [1.0, 1.0, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 5.2
+		},
+		"Zinc Sulfide Light Blue": {
+			"color": [0.0, 0.5, 1.0, 1.0],
+			"type": "Emission",
+			"strength": 5.6
+		}
+	}
+}

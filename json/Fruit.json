@@ -1,0 +1,1021 @@
+{
+	"Apple": {
+		"Red Apple": {
+			"color": [0.8, 0.1, 0.05, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.4,
+			"subsurface_weight": 0.25,
+			"subsurface_radius": [0.8, 0.3, 0.2],
+			"subsurface_ior": 1.4
+		},
+		"Green Apple": {
+			"color": [0.4, 0.7, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.5,
+			"subsurface_weight": 0.2,
+			"subsurface_radius": [0.7, 0.9, 0.5],
+			"subsurface_ior": 1.4
+		},
+		"Golden Apple": {
+			"color": [0.95, 0.8, 0.3, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.35,
+			"subsurface_weight": 0.15,
+			"subsurface_radius": [0.9, 0.7, 0.3],
+			"subsurface_ior": 1.4
+		},
+		"Pink Lady Apple": {
+			"color": [0.9, 0.5, 0.45, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.45,
+			"subsurface_weight": 0.22,
+			"subsurface_radius": [0.85, 0.4, 0.35],
+			"subsurface_ior": 1.4
+		},
+		"Granny Smith Apple": {
+			"color": [0.3, 0.85, 0.3, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.5,
+			"subsurface_weight": 0.18,
+			"subsurface_radius": [0.7, 0.9, 0.6],
+			"subsurface_ior": 1.4
+		}
+	},
+	"Banana": {
+		"Ripe Banana": {
+			"color": [0.95, 0.85, 0.3, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.4,
+			"subsurface_weight": 0.2,
+			"subsurface_radius": [0.95, 0.85, 0.5],
+			"subsurface_ior": 1.4
+		},
+		"Unripe Banana": {
+			"color": [0.6, 0.85, 0.3, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.5,
+			"subsurface_weight": 0.15,
+			"subsurface_radius": [0.8, 0.9, 0.6],
+			"subsurface_ior": 1.4
+		},
+		"Overripe Banana": {
+			"color": [0.4, 0.3, 0.15, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.55,
+			"subsurface_weight": 0.1,
+			"subsurface_radius": [0.6, 0.5, 0.3],
+			"subsurface_ior": 1.4
+		},
+		"Banana Peel": {
+			"color": [0.95, 0.9, 0.5, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.6,
+			"subsurface_weight": 0.12,
+			"subsurface_radius": [0.85, 0.8, 0.4],
+			"subsurface_ior": 1.4
+		},
+		"Spotted Banana": {
+			"color": [0.85, 0.75, 0.3, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.45,
+			"subsurface_weight": 0.18,
+			"subsurface_radius": [0.9, 0.8, 0.45],
+			"subsurface_ior": 1.4
+		}
+	},
+	"Orange": {
+		"Ripe Orange": {
+			"color": [0.95, 0.5, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.45,
+			"subsurface_weight": 0.22,
+			"subsurface_radius": [0.9, 0.4, 0.2],
+			"subsurface_ior": 1.4
+		},
+		"Unripe Orange": {
+			"color": [0.5, 0.7, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.5,
+			"subsurface_weight": 0.15,
+			"subsurface_radius": [0.75, 0.85, 0.4],
+			"subsurface_ior": 1.4
+		},
+		"Blood Orange": {
+			"color": [0.6, 0.1, 0.05, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.4,
+			"subsurface_weight": 0.25,
+			"subsurface_radius": [0.8, 0.3, 0.2],
+			"subsurface_ior": 1.4
+		},
+		"Mandarin Orange": {
+			"color": [1.0, 0.6, 0.15, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.4,
+			"subsurface_weight": 0.2,
+			"subsurface_radius": [0.9, 0.5, 0.25],
+			"subsurface_ior": 1.4
+		},
+		"Dry Orange Peel": {
+			"color": [0.6, 0.35, 0.15, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.65,
+			"subsurface_weight": 0.05,
+			"subsurface_radius": [0.5, 0.3, 0.2],
+			"subsurface_ior": 1.4
+		}
+	},
+	"Mango":{
+		"Ripe Mango": {
+			"color": [1.0, 0.6, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.4,
+			"subsurface_weight": 0.22,
+			"subsurface_radius": [0.95, 0.55, 0.3],
+			"subsurface_ior": 1.4
+		},
+		"Unripe Mango": {
+			"color": [0.4, 0.75, 0.3, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.5,
+			"subsurface_weight": 0.15,
+			"subsurface_radius": [0.7, 0.85, 0.5],
+			"subsurface_ior": 1.4
+		},
+		"Overripe Mango": {
+			"color": [0.55, 0.35, 0.15, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.55,
+			"subsurface_weight": 0.1,
+			"subsurface_radius": [0.6, 0.45, 0.25],
+			"subsurface_ior": 1.4
+		},
+		"Red-Green Mango": {
+			"color": [0.7, 0.4, 0.3, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.45,
+			"subsurface_weight": 0.2,
+			"subsurface_radius": [0.8, 0.6, 0.3],
+			"subsurface_ior": 1.4
+		},
+		"Yellow Mango": {
+			"color": [0.95, 0.8, 0.25, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.35,
+			"subsurface_weight": 0.2,
+			"subsurface_radius": [0.9, 0.6, 0.35],
+			"subsurface_ior": 1.4
+		}
+	},
+	"Grape":{
+		"Red Grape": {
+			"color": [0.5, 0.1, 0.15, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.35,
+			"subsurface_weight": 0.25,
+			"subsurface_radius": [0.6, 0.2, 0.25],
+			"subsurface_ior": 1.4
+		},
+		"Green Grape": {
+			"color": [0.6, 0.85, 0.4, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.45,
+			"subsurface_weight": 0.2,
+			"subsurface_radius": [0.75, 0.9, 0.5],
+			"subsurface_ior": 1.4
+		},
+		"Black Grape": {
+			"color": [0.1, 0.05, 0.15, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.3,
+			"subsurface_weight": 0.28,
+			"subsurface_radius": [0.5, 0.2, 0.3],
+			"subsurface_ior": 1.4
+		},
+		"Golden Grape": {
+			"color": [0.95, 0.85, 0.3, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.4,
+			"subsurface_weight": 0.18,
+			"subsurface_radius": [0.85, 0.8, 0.45],
+			"subsurface_ior": 1.4
+		},
+		"Pink Grape": {
+			"color": [0.85, 0.5, 0.6, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.38,
+			"subsurface_weight": 0.22,
+			"subsurface_radius": [0.7, 0.35, 0.4],
+			"subsurface_ior": 1.4
+		}
+	},
+	"Pineapple":{
+		"Ripe Pineapple Skin": {
+			"color": [0.7, 0.5, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.6,
+			"subsurface_weight": 0.1,
+			"subsurface_radius": [0.65, 0.45, 0.2],
+			"subsurface_ior": 1.4
+		},
+		"Unripe Pineapple Skin": {
+			"color": [0.5, 0.7, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.55,
+			"subsurface_weight": 0.08,
+			"subsurface_radius": [0.6, 0.5, 0.3],
+			"subsurface_ior": 1.4
+		},
+		"Pineapple Flesh": {
+			"color": [0.95, 0.85, 0.3, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.35,
+			"subsurface_weight": 0.2,
+			"subsurface_radius": [0.9, 0.8, 0.5],
+			"subsurface_ior": 1.4
+		},
+		"Overripe Pineapple Flesh": {
+			"color": [0.8, 0.65, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.4,
+			"subsurface_weight": 0.15,
+			"subsurface_radius": [0.85, 0.6, 0.4],
+			"subsurface_ior": 1.4
+		},
+		"Fermented Pineapple": {
+			"color": [0.6, 0.4, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.5,
+			"subsurface_weight": 0.1,
+			"subsurface_radius": [0.7, 0.5, 0.3],
+			"subsurface_ior": 1.4
+		}
+	},
+	"Strawberry":{
+		"Ripe Strawberry": {
+			"color": [0.9, 0.1, 0.15, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.35,
+			"subsurface_weight": 0.28,
+			"subsurface_radius": [0.7, 0.2, 0.25],
+			"subsurface_ior": 1.4
+		},
+		"Unripe Strawberry": {
+			"color": [0.5, 0.85, 0.4, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.5,
+			"subsurface_weight": 0.2,
+			"subsurface_radius": [0.8, 0.9, 0.5],
+			"subsurface_ior": 1.4
+		},
+		"Overripe Strawberry": {
+			"color": [0.6, 0.05, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.4,
+			"subsurface_weight": 0.22,
+			"subsurface_radius": [0.6, 0.15, 0.2],
+			"subsurface_ior": 1.4
+		},
+		"Strawberry Flesh": {
+			"color": [0.95, 0.75, 0.8, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.3,
+			"subsurface_weight": 0.3,
+			"subsurface_radius": [0.85, 0.5, 0.55],
+			"subsurface_ior": 1.4
+		},
+		"Strawberry Seeds": {
+			"color": [0.9, 0.85, 0.3, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.6,
+			"subsurface_weight": 0.05,
+			"subsurface_radius": [0.6, 0.6, 0.3],
+			"subsurface_ior": 1.4
+		}
+	},
+	"Blueberry":{
+		"Ripe Blueberry": {
+			"color": [0.2, 0.2, 0.4, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.4,
+			"subsurface_weight": 0.25,
+			"subsurface_radius": [0.4, 0.4, 0.6],
+			"subsurface_ior": 1.4
+		},
+		"Bloomed Blueberry": {
+			"color": [0.6, 0.6, 0.7, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.5,
+			"subsurface_weight": 0.15,
+			"subsurface_radius": [0.6, 0.6, 0.8],
+			"subsurface_ior": 1.4
+		},
+		"Unripe Blueberry": {
+			"color": [0.3, 0.6, 0.4, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.45,
+			"subsurface_weight": 0.18,
+			"subsurface_radius": [0.5, 0.7, 0.6],
+			"subsurface_ior": 1.4
+		},
+		"Overripe Blueberry": {
+			"color": [0.15, 0.1, 0.25, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.35,
+			"subsurface_weight": 0.2,
+			"subsurface_radius": [0.35, 0.3, 0.5],
+			"subsurface_ior": 1.4
+		},
+		"Blueberry Flesh": {
+			"color": [0.9, 0.8, 0.85, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.3,
+			"subsurface_weight": 0.3,
+			"subsurface_radius": [0.8, 0.6, 0.7],
+			"subsurface_ior": 1.4
+		}
+	},
+	"Raspberry":{
+		"Ripe Raspberry": {
+			"color": [0.85, 0.1, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.35,
+			"subsurface_weight": 0.28,
+			"subsurface_radius": [0.7, 0.2, 0.25],
+			"subsurface_ior": 1.4
+		},
+		"Unripe Raspberry": {
+			"color": [0.65, 0.4, 0.3, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.45,
+			"subsurface_weight": 0.18,
+			"subsurface_radius": [0.6, 0.4, 0.3],
+			"subsurface_ior": 1.4
+		},
+		"Overripe Raspberry": {
+			"color": [0.5, 0.05, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.4,
+			"subsurface_weight": 0.22,
+			"subsurface_radius": [0.55, 0.2, 0.25],
+			"subsurface_ior": 1.4
+		},
+		"Raspberry Flesh": {
+			"color": [0.95, 0.7, 0.8, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.3,
+			"subsurface_weight": 0.3,
+			"subsurface_radius": [0.85, 0.5, 0.55],
+			"subsurface_ior": 1.4
+		},
+		"Raspberry Shadowed Side": {
+			"color": [0.35, 0.05, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.38,
+			"subsurface_weight": 0.24,
+			"subsurface_radius": [0.5, 0.2, 0.25],
+			"subsurface_ior": 1.4
+		}
+	},
+	"Watermelon":{
+		"Ripe Watermelon Flesh": {
+			"color": [0.9, 0.3, 0.3, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.4,
+			"subsurface_weight": 0.3,
+			"subsurface_radius": [0.85, 0.7, 0.65],
+			"subsurface_ior": 1.4
+		},
+		"Unripe Watermelon Flesh": {
+			"color": [0.6, 0.8, 0.3, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.45,
+			"subsurface_weight": 0.25,
+			"subsurface_radius": [0.75, 0.85, 0.5],
+			"subsurface_ior": 1.4
+		},
+		"Watermelon Rind": {
+			"color": [0.05, 0.55, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.6,
+			"subsurface_weight": 0.05,
+			"subsurface_radius": [0.5, 0.8, 0.3],
+			"subsurface_ior": 1.4
+		},
+		"Watermelon Rind Inner": {
+			"color": [0.2, 0.4, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.65,
+			"subsurface_weight": 0.07,
+			"subsurface_radius": [0.55, 0.75, 0.4],
+			"subsurface_ior": 1.4
+		},
+		"Watermelon Seeds": {
+			"color": [0.1, 0.1, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.8,
+			"subsurface_weight": 0.02,
+			"subsurface_radius": [0.25, 0.25, 0.25],
+			"subsurface_ior": 1.4
+		}
+	},
+	"Melon":{
+		"Cantaloupe Flesh": {
+			"color": [1.0, 0.6, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.4,
+			"subsurface_weight": 0.25,
+			"subsurface_radius": [0.85, 0.65, 0.45],
+			"subsurface_ior": 1.4
+		},
+		"Cantaloupe Rind": {
+			"color": [0.6, 0.8, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.5,
+			"subsurface_weight": 0.1,
+			"subsurface_radius": [0.7, 0.85, 0.6],
+			"subsurface_ior": 1.4
+		},
+		"Honeydew Flesh": {
+			"color": [0.85, 1.0, 0.4, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.3,
+			"subsurface_weight": 0.2,
+			"subsurface_radius": [0.9, 0.8, 0.6],
+			"subsurface_ior": 1.4
+		},
+		"Honeydew Rind": {
+			"color": [0.3, 0.9, 0.4, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.5,
+			"subsurface_weight": 0.12,
+			"subsurface_radius": [0.75, 0.85, 0.55],
+			"subsurface_ior": 1.4
+		}
+	},
+	"Peach":{
+		"Ripe Peach": {
+			"color": [1.0, 0.6, 0.4, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.35,
+			"subsurface_weight": 0.3,
+			"subsurface_radius": [0.8, 0.6, 0.5],
+			"subsurface_ior": 1.4
+		},
+		"Unripe Peach": {
+			"color": [0.8, 0.8, 0.4, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.45,
+			"subsurface_weight": 0.25,
+			"subsurface_radius": [0.7, 0.8, 0.5],
+			"subsurface_ior": 1.4
+		},
+		"Overripe Peach": {
+			"color": [0.9, 0.3, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.4,
+			"subsurface_weight": 0.35,
+			"subsurface_radius": [0.75, 0.5, 0.4],
+			"subsurface_ior": 1.4
+		},
+		"Peach Flesh": {
+			"color": [1.0, 0.75, 0.5, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.3,
+			"subsurface_weight": 0.3,
+			"subsurface_radius": [0.9, 0.7, 0.6],
+			"subsurface_ior": 1.4
+		},
+		"Peach Pit": {
+			"color": [0.5, 0.3, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.7,
+			"subsurface_weight": 0.02,
+			"subsurface_radius": [0.25, 0.2, 0.15],
+			"subsurface_ior": 1.4
+		}
+	},
+	"Pear":{
+		"Ripe Pear": {
+			"color": [0.8, 0.9, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.35,
+			"subsurface_weight": 0.28,
+			"subsurface_radius": [0.75, 0.85, 0.4],
+			"subsurface_ior": 1.4
+		},
+		"Unripe Pear": {
+			"color": [0.6, 0.8, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.45,
+			"subsurface_weight": 0.25,
+			"subsurface_radius": [0.65, 0.75, 0.3],
+			"subsurface_ior": 1.4
+		},
+		"Overripe Pear": {
+			"color": [0.7, 0.6, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.4,
+			"subsurface_weight": 0.32,
+			"subsurface_radius": [0.8, 0.6, 0.5],
+			"subsurface_ior": 1.4
+		},
+		"Pear Flesh": {
+			"color": [0.9, 0.95, 0.4, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.3,
+			"subsurface_weight": 0.3,
+			"subsurface_radius": [0.9, 0.8, 0.6],
+			"subsurface_ior": 1.4
+		},
+		"Pear Core": {
+			"color": [0.6, 0.5, 0.3, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.7,
+			"subsurface_weight": 0.05,
+			"subsurface_radius": [0.4, 0.35, 0.2],
+			"subsurface_ior": 1.4
+		}
+	},
+	"Plum":{
+		"Ripe Plum": {
+			"color": [0.6, 0.1, 0.3, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.35,
+			"subsurface_weight": 0.3,
+			"subsurface_radius": [0.85, 0.65, 0.55],
+			"subsurface_ior": 1.4
+		},
+		"Unripe Plum": {
+			"color": [0.4, 0.2, 0.6, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.45,
+			"subsurface_weight": 0.25,
+			"subsurface_radius": [0.75, 0.7, 0.5],
+			"subsurface_ior": 1.4
+		},
+		"Overripe Plum": {
+			"color": [0.5, 0.15, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.4,
+			"subsurface_weight": 0.35,
+			"subsurface_radius": [0.8, 0.55, 0.5],
+			"subsurface_ior": 1.4
+		},
+		"Plum Flesh": {
+			"color": [0.9, 0.5, 0.6, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.3,
+			"subsurface_weight": 0.3,
+			"subsurface_radius": [0.9, 0.75, 0.6],
+			"subsurface_ior": 1.4
+		},
+		"Plum Pit": {
+			"color": [0.35, 0.25, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.7,
+			"subsurface_weight": 0.02,
+			"subsurface_radius": [0.2, 0.15, 0.1],
+			"subsurface_ior": 1.4
+		}
+	},
+	"Cherry":{
+		"Ripe Cherry": {
+			"color": [0.8, 0.1, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.35,
+			"subsurface_weight": 0.3,
+			"subsurface_radius": [0.75, 0.65, 0.6],
+			"subsurface_ior": 1.4
+		},
+		"Unripe Cherry": {
+			"color": [0.6, 0.3, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.45,
+			"subsurface_weight": 0.25,
+			"subsurface_radius": [0.7, 0.75, 0.55],
+			"subsurface_ior": 1.4
+		},
+		"Overripe Cherry": {
+			"color": [0.9, 0.05, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.4,
+			"subsurface_weight": 0.35,
+			"subsurface_radius": [0.8, 0.6, 0.5],
+			"subsurface_ior": 1.4
+		},
+		"Cherry Flesh": {
+			"color": [0.95, 0.45, 0.5, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.3,
+			"subsurface_weight": 0.3,
+			"subsurface_radius": [0.85, 0.7, 0.6],
+			"subsurface_ior": 1.4
+		},
+		"Cherry Pit": {
+			"color": [0.3, 0.2, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.7,
+			"subsurface_weight": 0.02,
+			"subsurface_radius": [0.2, 0.15, 0.1],
+			"subsurface_ior": 1.4
+		}
+	},
+	"Kiwi":{
+		"Ripe Kiwi": {
+			"color": [0.6, 0.4, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.4,
+			"subsurface_weight": 0.3,
+			"subsurface_radius": [0.85, 0.75, 0.5],
+			"subsurface_ior": 1.4
+		},
+		"Unripe Kiwi": {
+			"color": [0.5, 0.6, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.45,
+			"subsurface_weight": 0.25,
+			"subsurface_radius": [0.75, 0.85, 0.6],
+			"subsurface_ior": 1.4
+		},
+		"Kiwi Flesh": {
+			"color": [0.8, 0.9, 0.3, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.3,
+			"subsurface_weight": 0.35,
+			"subsurface_radius": [0.9, 0.85, 0.7],
+			"subsurface_ior": 1.4
+		},
+		"Kiwi Seeds": {
+			"color": [0.05, 0.05, 0.05, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.8,
+			"subsurface_weight": 0.02,
+			"subsurface_radius": [0.1, 0.1, 0.1],
+			"subsurface_ior": 1.4
+		},
+		"Kiwi Skin": {
+			"color": [0.3, 0.25, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.6,
+			"subsurface_weight": 0.05,
+			"subsurface_radius": [0.7, 0.8, 0.6],
+			"subsurface_ior": 1.4
+		}
+	},
+	"Lemon":{
+		"Ripe Lemon": {
+			"color": [1.0, 1.0, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.35,
+			"subsurface_weight": 0.2,
+			"subsurface_radius": [0.9, 0.85, 0.4],
+			"subsurface_ior": 1.4
+		},
+		"Unripe Lemon": {
+			"color": [0.7, 0.9, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.45,
+			"subsurface_weight": 0.15,
+			"subsurface_radius": [0.8, 0.85, 0.5],
+			"subsurface_ior": 1.4
+		},
+		"Lemon Flesh": {
+			"color": [1.0, 1.0, 0.5, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.3,
+			"subsurface_weight": 0.25,
+			"subsurface_radius": [0.9, 0.8, 0.7],
+			"subsurface_ior": 1.4
+		},
+		"Lemon Peel": {
+			"color": [0.8, 0.8, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.6,
+			"subsurface_weight": 0.05,
+			"subsurface_radius": [0.75, 0.7, 0.5],
+			"subsurface_ior": 1.4
+		}
+	},		
+	"Lime":{
+		"Ripe Lime": {
+			"color": [0.0, 1.0, 0.0, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.35,
+			"subsurface_weight": 0.2,
+			"subsurface_radius": [0.8, 0.9, 0.4],
+			"subsurface_ior": 1.4
+		},
+		"Unripe Lime": {
+			"color": [0.3, 0.9, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.45,
+			"subsurface_weight": 0.18,
+			"subsurface_radius": [0.75, 0.85, 0.5],
+			"subsurface_ior": 1.4
+		},
+		"Lime Flesh": {
+			"color": [0.7, 1.0, 0.3, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.3,
+			"subsurface_weight": 0.25,
+			"subsurface_radius": [0.85, 0.9, 0.6],
+			"subsurface_ior": 1.4
+		},
+		"Lime Peel": {
+			"color": [0.4, 0.6, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.55,
+			"subsurface_weight": 0.05,
+			"subsurface_radius": [0.7, 0.75, 0.5],
+			"subsurface_ior": 1.4
+		}
+	},
+	"Papaya":{
+		"Ripe Papaya": {
+			"color": [1.0, 0.6, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.35,
+			"subsurface_weight": 0.3,
+			"subsurface_radius": [0.8, 0.7, 0.5],
+			"subsurface_ior": 1.4
+		},
+		"Unripe Papaya": {
+			"color": [0.6, 0.8, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.45,
+			"subsurface_weight": 0.2,
+			"subsurface_radius": [0.75, 0.8, 0.6],
+			"subsurface_ior": 1.4
+		},
+		"Papaya Flesh": {
+			"color": [1.0, 0.8, 0.3, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.3,
+			"subsurface_weight": 0.35,
+			"subsurface_radius": [0.9, 0.85, 0.7],
+			"subsurface_ior": 1.4
+		},
+		"Papaya Seeds": {
+			"color": [0.1, 0.05, 0.05, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.6,
+			"subsurface_weight": 0.05,
+			"subsurface_radius": [0.2, 0.15, 0.1],
+			"subsurface_ior": 1.4
+		},
+		"Papaya Skin": {
+			"color": [0.8, 0.6, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.5,
+			"subsurface_weight": 0.1,
+			"subsurface_radius": [0.75, 0.7, 0.5],
+			"subsurface_ior": 1.4
+		}
+	},
+	"Pomegranate":{
+		"Ripe Pomegranate": {
+			"color": [0.8, 0.1, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.35,
+			"subsurface_weight": 0.3,
+			"subsurface_radius": [0.9, 0.7, 0.6],
+			"subsurface_ior": 1.4
+		},
+		"Unripe Pomegranate": {
+			"color": [0.7, 0.4, 0.3, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.45,
+			"subsurface_weight": 0.25,
+			"subsurface_radius": [0.8, 0.75, 0.6],
+			"subsurface_ior": 1.4
+		},
+		"Pomegranate Flesh": {
+			"color": [0.9, 0.4, 0.4, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.3,
+			"subsurface_weight": 0.35,
+			"subsurface_radius": [0.85, 0.8, 0.7],
+			"subsurface_ior": 1.4
+		},
+		"Pomegranate Seeds": {
+			"color": [0.7, 0.1, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.45,
+			"subsurface_weight": 0.4,
+			"subsurface_radius": [0.6, 0.5, 0.4],
+			"subsurface_ior": 1.4
+		},
+		"Pomegranate Skin": {
+			"color": [0.6, 0.3, 0.3, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.6,
+			"subsurface_weight": 0.1,
+			"subsurface_radius": [0.7, 0.6, 0.5],
+			"subsurface_ior": 1.4
+		}
+	},
+	"Avocado":{
+		"Ripe Avocado": {
+			"color": [0.2, 0.6, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.35,
+			"subsurface_weight": 0.25,
+			"subsurface_radius": [0.8, 0.75, 0.5],
+			"subsurface_ior": 1.4
+		},
+		"Unripe Avocado": {
+			"color": [0.3, 0.7, 0.3, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.45,
+			"subsurface_weight": 0.2,
+			"subsurface_radius": [0.75, 0.8, 0.6],
+			"subsurface_ior": 1.4
+		},
+		"Avocado Flesh": {
+			"color": [0.5, 0.8, 0.3, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.3,
+			"subsurface_weight": 0.35,
+			"subsurface_radius": [0.9, 0.85, 0.7],
+			"subsurface_ior": 1.4
+		},
+		"Avocado Pit": {
+			"color": [0.4, 0.25, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.7,
+			"subsurface_weight": 0.05,
+			"subsurface_radius": [0.6, 0.55, 0.4],
+			"subsurface_ior": 1.4
+		},
+		"Avocado Skin": {
+			"color": [0.1, 0.4, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.6,
+			"subsurface_weight": 0.1,
+			"subsurface_radius": [0.7, 0.6, 0.5],
+			"subsurface_ior": 1.4
+		}
+	},
+	"Coconut":{
+		"Coconut Shell": {
+			"color": [0.5, 0.3, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.7,
+			"subsurface_weight": 0.05,
+			"subsurface_radius": [0.6, 0.5, 0.4],
+			"subsurface_ior": 1.4
+		},
+		"Coconut Flesh": {
+			"color": [1.0, 1.0, 1.0, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.4,
+			"subsurface_weight": 0.4,
+			"subsurface_radius": [0.9, 0.85, 0.8],
+			"subsurface_ior": 1.4
+		},
+		"Coconut Water": {
+			"color": [0.9, 1.0, 1.0, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.1,
+			"subsurface_weight": 0.2,
+			"subsurface_radius": [0.85, 0.9, 0.95],
+			"subsurface_ior": 1.3
+		},
+		"Coconut Husk": {
+			"color": [0.6, 0.4, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.8,
+			"subsurface_weight": 0.1,
+			"subsurface_radius": [0.7, 0.6, 0.5],
+			"subsurface_ior": 1.4
+		}
+	},
+	"Fig":{
+		"Ripe Fig": {
+			"color": [0.5, 0.0, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.35,
+			"subsurface_weight": 0.3,
+			"subsurface_radius": [0.7, 0.5, 0.3],
+			"subsurface_ior": 1.4
+		},
+		"Unripe Fig": {
+			"color": [0.4, 0.5, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.45,
+			"subsurface_weight": 0.2,
+			"subsurface_radius": [0.8, 0.7, 0.4],
+			"subsurface_ior": 1.4
+		},
+		"Fig Flesh": {
+			"color": [0.9, 0.3, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.3,
+			"subsurface_weight": 0.35,
+			"subsurface_radius": [0.9, 0.85, 0.6],
+			"subsurface_ior": 1.4
+		},
+		"Fig Seeds": {
+			"color": [0.3, 0.1, 0.05, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.6,
+			"subsurface_weight": 0.05,
+			"subsurface_radius": [0.4, 0.3, 0.2],
+			"subsurface_ior": 1.4
+		},
+		"Fig Skin": {
+			"color": [0.6, 0.3, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.5,
+			"subsurface_weight": 0.1,
+			"subsurface_radius": [0.75, 0.6, 0.5],
+			"subsurface_ior": 1.4
+		}
+	},
+	"Date":{
+		"Ripe Date": {
+			"color": [0.6, 0.3, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.5,
+			"subsurface_weight": 0.4,
+			"subsurface_radius": [0.7, 0.5, 0.3],
+			"subsurface_ior": 1.4
+		},
+		"Unripe Date": {
+			"color": [0.8, 0.6, 0.3, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.45,
+			"subsurface_weight": 0.35,
+			"subsurface_radius": [0.75, 0.6, 0.4],
+			"subsurface_ior": 1.4
+		},
+		"Date Flesh": {
+			"color": [1.0, 0.7, 0.3, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.3,
+			"subsurface_weight": 0.45,
+			"subsurface_radius": [0.9, 0.8, 0.7],
+			"subsurface_ior": 1.4
+		},
+		"Date Pit": {
+			"color": [0.4, 0.2, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.8,
+			"subsurface_weight": 0.05,
+			"subsurface_radius": [0.6, 0.5, 0.3],
+			"subsurface_ior": 1.4
+		},
+		"Date Skin": {
+			"color": [0.5, 0.3, 0.15, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.6,
+			"subsurface_weight": 0.15,
+			"subsurface_radius": [0.7, 0.65, 0.4],
+			"subsurface_ior": 1.4
+		}
+	},
+	"Passion fruit":{
+		"Ripe Passion Fruit": {
+			"color": [0.8, 0.4, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.45,
+			"subsurface_weight": 0.25,
+			"subsurface_radius": [0.85, 0.75, 0.65],
+			"subsurface_ior": 1.4
+		},
+		"Unripe Passion Fruit": {
+			"color": [0.5, 0.8, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.55,
+			"subsurface_weight": 0.3,
+			"subsurface_radius": [0.8, 0.7, 0.6],
+			"subsurface_ior": 1.4
+		},
+		"Passion Fruit Flesh": {
+			"color": [1.0, 0.7, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.3,
+			"subsurface_weight": 0.4,
+			"subsurface_radius": [0.9, 0.8, 0.7],
+			"subsurface_ior": 1.4
+		},
+		"Passion Fruit Seeds": {
+			"color": [0.1, 0.1, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.7,
+			"subsurface_weight": 0.05,
+			"subsurface_radius": [0.6, 0.5, 0.4],
+			"subsurface_ior": 1.4
+		},
+		"Passion Fruit Skin": {
+			"color": [0.6, 0.2, 0.8, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.6,
+			"subsurface_weight": 0.1,
+			"subsurface_radius": [0.75, 0.7, 0.5],
+			"subsurface_ior": 1.4
+		}
+	}
+}
+
