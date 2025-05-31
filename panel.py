@@ -33,7 +33,7 @@ def draw_color_pallete(layout):
 	for index, color in enumerate(data):
 		raw = col.row(align=True)
 
-		color_box = 
+		# color_box = 
 
 		label = raw.operator(
 			ColorLib_OT_Actor.bl_idname, 

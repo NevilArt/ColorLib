@@ -1,0 +1,1281 @@
+{
+	"Elements":{
+		"Hydrogen": {
+			"color": [0.8, 0.8, 0.8, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.5
+		},
+		"Helium": {
+			"color": [0.85, 1.0, 1.0, 1.0],
+			"type": "Principled BSDF",
+			"ior": 1.0,
+			"alpha": 0.0
+		},
+		"Lithium": {
+			"color": [0.7, 0.75, 0.75, 1.0],
+			"type": "Principled BSDF",
+			"metallic": 1.0
+		},
+		"Beryllium": {
+			"color": [
+			0.76,
+			0.76,
+			0.76,
+			1.0
+			],
+			"type": "Principled BSDF",
+			"metallic": 1.0
+		},
+		"Boron": {
+			"color": [
+			0.0,
+			0.4,
+			0.13,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Carbon": {
+			"color": [
+			0.0,
+			0.0,
+			0.0,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Nitrogen": {
+			"color": [
+			0.0,
+			0.0,
+			1.0,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Oxygen": {
+			"color": [
+			1.0,
+			0.0,
+			0.0,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Fluorine": {
+			"color": [
+			0.5,
+			1.0,
+			0.5,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Neon": {
+			"color": [
+			1.0,
+			0.4,
+			0.6,
+			1.0
+			],
+			"type": "Principled BSDF",
+			"emission_color": [
+			1.0,
+			0.4,
+			0.6
+			],
+			"emission_strength": 2.0
+		},
+		"Sodium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Magnesium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Aluminum": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Silicon": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Phosphorus": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Sulfur": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Chlorine": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Argon": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Potassium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Calcium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Scandium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Titanium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Vanadium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Chromium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Manganese": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Iron": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Cobalt": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Nickel": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Copper": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Zinc": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Gallium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Germanium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Arsenic": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Selenium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Bromine": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Krypton": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Rubidium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Strontium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Yttrium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Zirconium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Niobium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Molybdenum": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Technetium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Ruthenium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Rhodium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Palladium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Silver": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Cadmium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Indium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Tin": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Antimony": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Tellurium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Iodine": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Xenon": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Cesium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Barium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Lanthanum": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Cerium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Praseodymium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Neodymium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Promethium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Samarium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Europium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Gadolinium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Terbium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Dysprosium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Holmium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Erbium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Thulium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Ytterbium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Lutetium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Hafnium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Tantalum": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Tungsten": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Rhenium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Osmium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Iridium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Platinum": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Gold": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Mercury": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Thallium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Lead": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Bismuth": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Polonium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Astatine": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Radon": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Francium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Radium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Actinium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Thorium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Protactinium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Uranium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Neptunium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Plutonium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Americium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Curium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Berkelium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Californium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Einsteinium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Fermium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Mendelevium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Nobelium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Lawrencium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Rutherfordium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Dubnium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Seaborgium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Bohrium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Hassium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Meitnerium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Darmstadtium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Roentgenium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Copernicium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Nihonium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Flerovium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Moscovium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Livermorium": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Tennessine": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		},
+		"Oganesson": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF"
+		}
+	},
+	"Alloys":{
+		"Brass": {
+			"color": [
+			0.8,
+			0.6,
+			0.2,
+			1.0
+			],
+			"type": "Principled BSDF",
+			"metallic": 1.0,
+			"roughness": 0.3
+		},
+		"Bronze": {
+			"color": [
+			0.6,
+			0.4,
+			0.2,
+			1.0
+			],
+			"type": "Principled BSDF",
+			"metallic": 1.0,
+			"roughness": 0.4
+		},
+		"Stainless Steel": {
+			"color": [
+			0.7,
+			0.7,
+			0.7,
+			1.0
+			],
+			"type": "Principled BSDF",
+			"metallic": 1.0,
+			"roughness": 0.2
+		},
+		"Duralumin": {
+			"color": [
+			0.85,
+			0.85,
+			0.85,
+			1.0
+			],
+			"type": "Principled BSDF",
+			"metallic": 1.0,
+			"roughness": 0.3
+		},
+		"Pewter": {
+			"color": [
+			0.65,
+			0.65,
+			0.65,
+			1.0
+			],
+			"type": "Principled BSDF",
+			"metallic": 1.0,
+			"roughness": 0.4
+		},
+		"Nickel Silver": {
+			"color": [
+			0.75,
+			0.75,
+			0.75,
+			1.0
+			],
+			"type": "Principled BSDF",
+			"metallic": 1.0,
+			"roughness": 0.3
+		},
+		"Electrum": {
+			"color": [
+			1.0,
+			0.85,
+			0.3,
+			1.0
+			],
+			"type": "Principled BSDF",
+			"metallic": 1.0,
+			"roughness": 0.2
+		},
+		"Solder": {
+			"color": [
+			0.75,
+			0.75,
+			0.75,
+			1.0
+			],
+			"type": "Principled BSDF",
+			"metallic": 1.0,
+			"roughness": 0.5
+		},
+		"Steel": {
+			"color": [
+			0.6,
+			0.6,
+			0.6,
+			1.0
+			],
+			"type": "Principled BSDF",
+			"metallic": 1.0,
+			"roughness": 0.3
+		},
+		"Cast Iron": {
+			"color": [
+			0.3,
+			0.3,
+			0.3,
+			1.0
+			],
+			"type": "Principled BSDF",
+			"metallic": 1.0,
+			"roughness": 0.6
+		}
+	},
+	"Toxic":{
+		"Arsenic": {
+			"color": [0.5, 0.5, 0.6, 1.0],
+			"type": "Principled BSDF",
+			"metallic": 0.0,
+			"roughness": 0.4
+		},
+		"Mercury": {
+			"color": [0.8, 0.8, 0.85, 1.0],
+			"type": "Principled BSDF",
+			"metallic": 1.0,
+			"roughness": 0.1
+		},
+		"Lead": {
+			"color": [0.4, 0.4, 0.5, 1.0],
+			"type": "Principled BSDF",
+			"metallic": 1.0,
+			"roughness": 0.4
+		},
+		"Cyanide": {
+			"color": [0.0, 0.6, 1.0, 1.0],
+			"type": "Principled BSDF",
+			"roughness": 0.3
+		},
+		"Chlorine Gas": {
+			"color": [0.8, 1.0, 0.3, 1.0],
+			"type": "Principled BSDF",
+			"alpha": 0.7
+		},
+		"Ammonia": {
+			"color": [0.7, 0.9, 1.0, 1.0],
+			"type": "Principled BSDF"
+		},
+		"Hydrogen Sulfide": {
+			"color": [0.6, 0.6, 0.3, 1.0],
+			"type": "Principled BSDF"
+		},
+		"Phosgene": {
+			"color": [0.7, 1.0, 0.6, 1.0],
+			"type": "Principled BSDF",
+			"alpha": 0.6
+		},
+		"Benzene": {
+			"color": [0.4, 0.0, 0.4, 1.0],
+			"type": "Principled BSDF"
+		},
+		"Formaldehyde": {
+			"color": [1.0, 1.0, 1.0, 1.0],
+			"type": "Principled BSDF"
+		},
+		"Dioxin": {
+			"color": [0.3, 0.3, 0.3, 1.0],
+			"type": "Principled BSDF"
+		}
+	},
+	"Oxide":{
+		"Iron Oxide": {
+			"color": [0.6, 0.2, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"metallic": 1.0,
+			"roughness": 0.7,
+			"normal": "rust_normal_map"
+		},
+		"Aluminum Oxide": {
+			"color": [0.85, 0.85, 0.85, 1.0],
+			"type": "Principled BSDF",
+			"metallic": 0.0,
+			"roughness": 0.3
+		},
+		"Copper Oxide": {
+			"color": [0.2, 0.25, 0.2, 1.0],
+			"type": "Principled BSDF",
+			"metallic": 1.0,
+			"roughness": 0.6
+		},
+		"Titanium Dioxide": {
+			"color": [0.95, 0.95, 0.95, 1.0],
+			"type": "Principled BSDF",
+			"metallic": 0.0,
+			"roughness": 0.15
+		},
+		"Zinc Oxide": {
+			"color": [0.9, 0.9, 0.9, 1.0],
+			"type": "Principled BSDF",
+			"metallic": 0.0,
+			"roughness": 0.35
+		},
+		"Chromium Oxide": {
+			"color": [0.15, 0.4, 0.15, 1.0],
+			"type": "Principled BSDF",
+			"metallic": 1.0,
+			"roughness": 0.5
+		},
+		"Manganese Oxide": {
+			"color": [0.1, 0.1, 0.1, 1.0],
+			"type": "Principled BSDF",
+			"metallic": 1.0,
+			"roughness": 0.65
+		},
+		"Silicon Dioxide": {
+			"color": [0.9, 0.9, 0.95, 1.0],
+			"type": "Principled BSDF",
+			"metallic": 0.0,
+			"roughness": 0.1,
+			"transmission_weight": 0.9
+		}
+		}
+}
